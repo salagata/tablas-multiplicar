@@ -3,8 +3,30 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
+.title , h2{
     text-align: center;
+}
+
+#config {
+    border: 1px #ccc solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#config * {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+[type="number"] {
+    width: 50px;
+}
+
+#send {
+    width: 100px;
+    height: 25px;
+    margin: auto;
 }
 
 main#tables {
@@ -13,7 +35,7 @@ main#tables {
     flex-wrap: wrap;
 }
 
-div.table {
+article.table {
     width: 120px;
     margin: 10px;
 }

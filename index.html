@@ -7,7 +7,32 @@
     <title>Tablas</title>
 </head>
 <body>
-    <h1 class="title">Tablas</h1>
+    <header>
+        <h1 class="title">Generador de Tablas de Multiplicar</h1>
+        <h2>Permite generar tablas de multiplicar de cierto rango y en una base numerica</h2>
+
+        <form id="config">
+            <label for="start">Start:
+                <input name="start" type="number" id="start" value="1">
+            </label>
+
+            <label for="end">End:
+                <input name="end" type="number" id="end" value="10">
+            </label>
+            
+            <label for="step">Step:
+                <input name="step" type="number" id="step" value="1">
+            </label>
+            
+            <label for="base">Base Output:
+                <input name="base" type="number" id="base" value="10">
+            </label>
+
+            <button type="submit" id="send">Send</button>
+        </form>
+    </header>
+    
+    
     <main id="tables">
     </main>
 
